@@ -136,7 +136,12 @@ textarea {
  }
 
  footer .contact {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
    margin-bottom: 50px;
+   margin-right: 20px;
+
  }
 
  footer .social-icons {
@@ -153,6 +158,7 @@ textarea {
 
  footer .copyright {
    margin: 20px 0;
+   text-align: center;
  }
 
   /* --------------------  Header  Styles -------------------- */
@@ -502,26 +508,75 @@ textarea {
    /*Desktop styles here*/
 
 /* General styles */
+   .content-wrapper {
+            max-width: 960px;
+       }
 
-.newsletter, .info{
+/* Hero */
+   .hero-area h1 {
+       width: 960px;
+   }
+
+   /* Aside */
+
+   aside .content-wrapper{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+   }
+
+   .newsletter, .info{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   width: 45%;
+  margin: 20px;
 
 }
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+        width: 45%;
+    }
 
-  .features{
-    width: 100%;
+
+    /* Features */
+    .features h2 {
+        width:
+        }
+
+    .features article {
+        flex-basis: 300px;
+        }
+
+    /* Reviews */
+    .reviews .image {
+        width: 450%;
+        display: flex;
+        justify-content: flex-start;
+        order: 1;
+        }
+    .review-item{
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      order: 2;
+
+
+    }
+    .features h2{
+
+    }
+  .features article{
+    width: 30%;
+    flex-basis:
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
   }
-
-  article .features-items{
-  width: 30%;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
 
 
 }
@@ -531,8 +586,23 @@ textarea {
  About Page
  ========================================================================== */
 
+    .mission h2,
+    .contact-section .content-wrapper h2 {
+        width: 90%;
 
+    }
+    .mission-content{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
+      margin: 0;
 
+    }
+
+    .contact-section .contact{
+      margin-right: 60px;
+    }
 
 
 
@@ -540,6 +610,9 @@ textarea {
  /* ==========================================================================
   FAQ Page
   ========================================================================== */
+  .faq h2 {
+          width: 100%;
+      }
 
 
    }
