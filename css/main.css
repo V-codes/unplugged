@@ -87,6 +87,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   /* --------------------  General  Styles -------------------- */
+   html {
+        font-size: 16px;
+   }
+
+   body {
+          font-family: 'Open Sans', sans-serif;
+          font-size: 1em;
+          color: #e2e3ed;
+   }
+
+   h2 {
+        font-family: 'Poppins', sans-serif;
+   }
+
+   h3,
+   h4 {
+        font-family: 'Poppins', sans-serif;
+   }
+
+   a {
+       color: #e2e3ed;
+       text-decoration: none;
+  }
+
+
    /* -------------------- Base Header - Footer Styles -------------------- */
    header,
    footer {
@@ -94,11 +121,15 @@ textarea {
        justify-content: center;
        align-items: center;
        flex-flow: row wrap;
+       color: #e2e3ed;
+       background-color: #202322;
    }
 
    header{
      padding: 15px 0;
+
    }
+
    .content-wrapper{
     display: flex;
     justify-content: center;
@@ -107,12 +138,14 @@ textarea {
     margin: 0;
    }
 
+
    nav{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     width: 60%;
+    border-top: 1px solid #e2e3ed;
    }
 
 
@@ -120,7 +153,14 @@ textarea {
    display: flex;
    justify-content: space-around;
    width: 100%;
+   list-style-type: none;
  }
+
+ a {
+     color: #e2e3ed;
+     text-decoration: none;
+
+}
 
  footer {
    flex-direction: column;
@@ -161,7 +201,6 @@ textarea {
    text-align: center;
  }
 
-  /* --------------------  Header  Styles -------------------- */
 
 
 
@@ -171,10 +210,23 @@ textarea {
 
   /* Hero Area */
 
-  .hero-area {
+  section .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+
+  }
+
+
+  h1 {
+    color: #e2e3ed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
   }
 
   /* Aside */
@@ -184,6 +236,41 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
+  }
+  aside p{
+    font-size: 1em;
+    font-weight: 400;
+  }
+  aside h3{
+    font-size: 2em;
+    font-family: 'poppins',sans-serif;
+    font-weight: 700;
+  }
+  aside .form {
+    margin-top: 30px;
+  }
+
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* Features */
@@ -192,10 +279,14 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-image: url('');
+    background-size: cover;
   }
 
   .features h2 {
     margin-bottom: 60px;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
   }
 
   .features article {
@@ -208,6 +299,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    text-align: center;
   }
 
   .features p {
@@ -220,8 +312,13 @@ textarea {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
 
+  .image{
+    display: flex;
+    justify-content: center;
+  }
   .reviews h2 {
     margin-bottom: 40px;
   }
@@ -240,6 +337,12 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
+
+  }
+  .mission-content {
+    display: flex;
+    flex-direction: row;
   }
 
   .contact-section {
@@ -247,6 +350,9 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #2a423a;
+    padding-bottom: 20px;
+    margin: 0;
   }
 
   .contact-content p {
@@ -262,6 +368,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-color: #527158;
   }
 
   .faq .content-wrapper {
