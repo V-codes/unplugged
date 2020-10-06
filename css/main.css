@@ -402,7 +402,7 @@ textarea {
     background-color: #527158;
   }
   .mission .content-wrapper{
-    margin: 20px 20px 20px 50px;
+    margin: 20px 20px 20px 40px;
 
 }
 
@@ -612,6 +612,9 @@ textarea {
        display: none;
      }
 
+     .social{
+       width: 40%;
+     }
 
      /* Hero Area */
 
@@ -818,12 +821,13 @@ textarea {
            line-height: 1.333;
        }
 
-       footer .social-icons p {
-         border-radius: 50%;
-         width:
-         height:
+       footer .contact{
+         line-height: 1em
        }
 
+       .social{
+         width: 20%;
+       }
 
 /* Hero */
    .hero-area h1 {
@@ -860,13 +864,10 @@ textarea {
     .features article {
         display: flex;
         justify-content: space-between;
+        flex-flow: column wrap;
         align-items: center;
-        flex-flow: column ;
-        flex-basis: 33%;
+        flex-basis: 30%;
         }
-
-
-
 
 
 
