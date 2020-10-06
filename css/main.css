@@ -222,7 +222,7 @@ textarea {
    flex-direction: column;
    justify-content: space-around;
    margin-bottom: 50px;
-   margin-right: 20px;
+   margin-right: 1px;
 
  }
 
@@ -344,7 +344,7 @@ textarea {
 
   .features article {
     width: 63%;
-    margin: 30px 0 0 60px;
+    margin: 30px 10px 0 20px;
   }
 
   .features .features-items {
@@ -380,7 +380,7 @@ textarea {
     justify-content: center;
   }
   .reviews h2 {
-    margin: 50px 0 0 20px;
+    margin: 50px 0 0 15px;
     line-height: 1;
 
   }
@@ -458,7 +458,7 @@ textarea {
   }
 
   .faq .content-wrapper {
-    margin: 50px 0 0 50px;
+    margin: 50px 0 0 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -570,6 +570,7 @@ textarea {
      .content-wrapper {
        max-width: 640px;
        margin: 100px 0;
+
      }
 
      h2 {
@@ -610,6 +611,7 @@ textarea {
      .header-divider {
        display: none;
      }
+
 
      /* Hero Area */
 
@@ -713,7 +715,7 @@ textarea {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
-        width: 100%;
+        width: 80%;
         margin: 20px;
         padding-bottom: 20px;
       }
@@ -816,6 +818,13 @@ textarea {
            line-height: 1.333;
        }
 
+       footer .social-icons p {
+         border-radius: 50%;
+         width:
+         height:
+       }
+
+
 /* Hero */
    .hero-area h1 {
        width: 960px;
@@ -849,13 +858,15 @@ textarea {
         }
 
     .features article {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column ;
         flex-basis: 33%;
         }
 
 
-    .features h2{
-      width: 90%;
-    }
+
 
 
 
