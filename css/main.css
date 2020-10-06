@@ -213,7 +213,7 @@ textarea {
  }
 
  footer .content-wrapper {
-   width: 55%;
+   width: 50%;
    margin: 50px 0;
  }
 
@@ -232,7 +232,17 @@ textarea {
    align-items: center;
  }
 
+ footer .social-icons p i {
+   font-size: 1.3125em;
+ }
+
+
+
  footer .social-icons p {
+   background-color: #527158;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -347,6 +357,11 @@ textarea {
 
   .features p {
     margin: 0;
+  }
+
+  .features i {
+  	font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
   /* Reviews */
@@ -705,6 +720,7 @@ textarea {
       .mission h2{
         width: 100%;
         padding: 0;
+        margin: 0;
 
       }
 
@@ -719,6 +735,7 @@ textarea {
 
      .mission-content p {
        width: 75%;
+       padding-left: 20px;
      }
 
      .map figure {
@@ -733,11 +750,11 @@ textarea {
 
      }
 
-     .contact-section .content-wrapper address{
+     .contact-section .content-wrapper {
        display: flex;
-       flex-flow: column wrap;
+       flex-flow: row wrap;
        justify-content: space-between;
-       align-items: flex-start;
+       align-items: center;
      }
 
      .contact-content h4 {
@@ -864,7 +881,7 @@ textarea {
 
     .mission h2,
     .contact-section .content-wrapper h2 {
-        width: 90%;
+        width: 95%;
 
     }
     .mission-content{
@@ -873,6 +890,7 @@ textarea {
       justify-content: space-between;
       width: 50%;
       margin: 0;
+
 
     }
 
